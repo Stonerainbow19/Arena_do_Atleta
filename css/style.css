@@ -1,0 +1,21 @@
+:root {
+    --principalColor: #020b50;
+    --secundaryColor: #649de3;
+}
+
+body {
+    background-color: white;
+}
+
+
+
+header {
+    background-color: var(--principalColor);
+    text-align: center;
+
+
+    
+    img{
+        width: 150px;
+    }
+}
