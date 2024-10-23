@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        section {
+            
+            background: radial-gradient(circle, rgba(7,50,80,1) 2%, rgb(79, 79, 218) 100%, rgba(0,212,255,1) 100%);
+            /*background-image: url("img/bg-esportes.png");*/
+            background-repeat: no-repeat;
+            min-height: 20vh;
+            width: 100%;
+            text-align: center;
+
+            .bg{
+                position: relative;
+                width: 80rem;
+                background: linear-gradient( #393E8F 0%,   #151857 100%);
+            }
+            
+            .menu {
+                position: absolute;
+                top: 20%;
+                left: 25%;
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 400px;
+                    transition: 1s ease-in-out;
+                }
+
+                img:hover  {
+                    height: 420px;
+                    rotate: 360deg;
+                }
+                 h1 {
+                    font-family: "Notable", sans-serif;
+                    color: white;
+                    font-size: 2em;
+                 }
+
+            }
+            
+
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <section>
+        <img  class='bg' src="img/bg-esportes.png" alt="">
+        <div class="menu">
+            <img  src="img/logo.png" alt="">
+            <h1><i> "DESAFIE SEUS LIMITES!"</i></h1>
+        </div>
+        
+
+    </section>
+
+
+
+</body>
+</html>
